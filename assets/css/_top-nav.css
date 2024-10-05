@@ -1,0 +1,38 @@
+.bg-top-nav{
+    background-color: #232f3e;
+}
+.custom-top-nav,.bg-top-nav p{
+    font-size: 12px;
+}
+.custom-top-nav .border-start{
+    border-color: #4e4d4d!important;
+}
+.custom-top-nav a{
+    padding: 10px;
+}
+.btn-font-size{
+    font-size: 12px;
+}
+.basket{
+    background-color: transparent;
+}
+.basket i{
+    vertical-align: -2px;
+}
+.custom-dropdown-toggle::after{
+    vertical-align: 0.055em;
+}
+.shopping-list a img{
+    width: 64px;
+    height: 64px;
+}
+.shopping-list a{
+    font-size: 12px;
+}
+.shopping-list{
+    width: 300px!important;
+}
+.shopping-list .btn-close{
+    width: 0.5em;
+    height: 0.5em;
+}

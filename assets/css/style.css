@@ -1,0 +1,30 @@
+@import '_top-nav.css';
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir.eot');
+    src: url('Vazir.woff2') format('woff2'),
+         url('Vazir.woff') format('woff'),
+         url('Vazir.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal;
+}
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Vazir;
+}
+body{
+    direction: rtl;
+}
+a{
+    text-decoration: none;
+}
+li,ol,ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
