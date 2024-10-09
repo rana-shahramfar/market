@@ -94,4 +94,12 @@
   
   .custom-navbar.navbar-toggler {
     border-color: rgb(255, 255, 255);
+    border: none;
   } 
+  .custom-navbar .mr-custom{
+    margin-right: 14px;
+  }
+  ::-webkit-input-placeholder{
+    font-size: 11px;
+    color: #c6c6c6;
+  }
