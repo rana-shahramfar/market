@@ -1,6 +1,8 @@
 @import '_top-nav.css';
 @import '_slider.css';
 @import '_shipping.css';
+@import '_ads.css';
+@import '_categories.css';
 @font-face {
     font-family: Vazir;
     src: url('Vazir.eot');

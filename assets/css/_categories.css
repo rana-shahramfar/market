@@ -1,0 +1,16 @@
+.cat-desc p{
+    font-size: 11px;
+}
+.cats-custom img{
+    width: 75px!important;
+    height: 78px!important;
+    margin-left: 12px;
+    padding-top: 2px;
+}
+.cat-hover{
+    transition: 0.5s ease;
+}
+.cat-hover:hover{
+    box-shadow: 0 0 7px 1px #ccc;
+    z-index: 1;
+}
