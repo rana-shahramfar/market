@@ -14,3 +14,11 @@
     box-shadow: 0 0 7px 1px #ccc;
     z-index: 1;
 }
+.cat-hover a{
+    text-decoration-line: none;
+    text-decoration-color: #353535;
+    color: #353535;
+}
+.cat-hover a:hover{
+    /* color: blue; */
+}
