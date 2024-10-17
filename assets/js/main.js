@@ -12,12 +12,15 @@ var x = setInterval(function () {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
   // Output the result in an element with id="demo"
-   document.getElementById("demo").innerHTML =''+ days + '' +  ''+ hours + ''
-   + ''+ minutes + '' + ''+ seconds + '';
+   document.getElementById("demo").innerHTML ='<span id="day">'+ days + '</span>' +  '<span id="hours">'+ hours + '</span>'
+   + '<span id="minutes">'+ minutes + '</span>' + '<span id="seconds">'+ seconds + '</span>';
   // If the count down is over, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "به پایان رسیده";
+    document.getElementById("demo").innerHTML = "";
+    document.getElementById("after-expire").setAttribute("id","offer-expire-text");
+    document.getElementById("offer-expire-text").innerHTML = "مدت زمان این محصول شگفت انگیز به پایان رسیده";
+    document.getElementById("offer-blur").style.filter = "blur(2px)";
   }
  }, 1000);
 $(".tt").tooltip("show");
