@@ -83,8 +83,21 @@
 .first-offer,.second-offer,.third-offer,.forth-offer{
     min-height:250px !important;
 }
+.offer-section-title{
+    right: 12px;
+    border-bottom: 2px solid red;
+    padding-bottom: 3px;
+    top: -30px;
+}
+
 
 @media screen and (max-width:500px){
+    .custom-nav-tabs .nav-link.active, .custom-nav-tabs .nav-item.show .nav-link {
+        color: #ff8383;
+        background-color: transparent;
+        border-color: transparent;
+        padding: 2px;
+    }
     .offer-details .count-down-time #demo span{
         width: 15px;
         height: 15px;
@@ -138,5 +151,12 @@
         left: 0;
         font-weight: bold;
         padding: 5px;
+    }
+    .offer-section-title{
+        right: 12px;
+        border-bottom: 2px solid red;
+        padding-bottom: 3px;
+        top: -30px;
+        font-size: 12px;
     }
 }

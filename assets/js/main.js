@@ -45,6 +45,11 @@ var x = setInterval(function () {
     }
   }
 }, 1000);
+//set up owl carousel//
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+
 $(".tt").tooltip("show");
 $(".popovers").popover("show");
 $(".tot").toast("show");
