@@ -4,6 +4,7 @@
 @import '_ads.css';
 @import '_categories.css';
 @import '_special-offers.css';
+@import '_popular-product.css';
 @font-face {
     font-family: Vazir;
     src: url('../font/Vazir.eot');
@@ -32,4 +33,51 @@ li,ol,ul{
 }
 p{
     margin: 0;
+}
+.owl-carousel .owl-nav{
+    position: absolute;
+    top: 160px;
+    width: 100%;
+    display: flex;
+}
+.owl-carousel .owl-nav .owl-next{
+    position: absolute;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px #a7a7a7;
+    background-color: white!important;
+    transition: all 0.5s ease;
+}
+.owl-carousel .owl-nav .owl-next:hover{
+    box-shadow: 0 0 1px 3px #a7a7a7;
+    background-color: white;
+}
+.owl-carousel .owl-nav .owl-prev{
+    position: absolute;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px #a7a7a7;
+    background-color: white!important;
+    transition: all 0.5s ease;
+}
+.owl-carousel .owl-nav .owl-prev:hover{
+    box-shadow: 0 0 1px 3px #a7a7a7;
+    background-color: white;
+}
+.owl-carousel .owl-nav .owl-next span{
+    position: absolute;
+    left: 9px;
+    top: -6px;
+    font-size: 30px;
+}
+
+.owl-carousel .owl-nav .owl-prev span{
+    position: absolute;
+    right: 9px;
+    top: -6px;
+    font-size: 30px;
 }

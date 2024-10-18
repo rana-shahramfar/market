@@ -47,7 +47,18 @@ var x = setInterval(function () {
 }, 1000);
 //set up owl carousel//
 $(document).ready(function(){
-  $(".owl-carousel").owlCarousel();
+  $(".owl-carousel").owlCarousel({
+    rtl:true,
+    stagePadding: 100,
+    items:4,
+    loop:true,
+    margin:0,
+    dots:true,
+    autoplay:false,
+    autoplayTimeout:5000,
+    autoplayHoverPause:true,
+  });
+
 });
 
 $(".tt").tooltip("show");
