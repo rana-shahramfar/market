@@ -1,0 +1,9 @@
+.banner-section-1 .banner-img-hover{
+    overflow: hidden;
+}
+.banner-section-1 .banner-img-hover img{
+    transition: all .7s ease;
+}
+.banner-section-1 .banner-img-hover:hover img{
+    transform: scale(1.1);
+}

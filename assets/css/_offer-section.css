@@ -1,0 +1,21 @@
+.offer-section .custom-card .brands-img {
+    width: 100px !important;
+    height: 100px !important;
+}
+.offer-section .owl-carousel .owl-stage{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer-section .card{
+    border:none;
+}
+.offer-section .owl-carousel .owl-nav{
+    position: absolute;
+    top: 132px;
+    width: 100%;
+    display: flex;
+}
+
+
