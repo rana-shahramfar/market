@@ -8,3 +8,47 @@
 .news-letter-s2 p{
     font-size: 12px;
 }
+.news-letter .input-group input,.news-letter .input-group button{
+    border-radius: 0;
+    font-size: 12px;
+}
+.news-letter .row{
+    margin-top: -70px;
+    box-shadow: 0 0 1px 1px #efefef;
+}
+.main-section-footer h5{
+    font-size: 13px;
+    border-bottom: 3px solid #c80000;
+    padding-bottom: 10px;
+    display: inline-flex;
+}
+.main-section-footer .nav-item a{
+    font-size: 11px;
+    color: #383838;
+    transition: all 0.5d ease;
+}
+.main-section-footer .nav-item a:hover{
+    color: #c80000;
+}
+.main-section-footer .tel-support p,.main-section-footer .tel-support a{
+    font-size: 11px;
+    padding-bottom: 5px;
+    color: #383838;
+}
+.main-section-footer .social-icons p{
+    font-size: 12px;
+}
+.main-section-footer .social-icons a i{
+color: #a3a3a3;
+transition: all 0.5s ease;
+}
+.main-section-footer .social-icons a i.fa-telegram:hover,.main-section-footer .social-icons a i.fa-twitter:hover{
+    color: #0088ff;
+}
+.main-section-footer .social-icons a i.fa-instagram:hover{
+    /* background-color: linear-gradient(to right,#6228d7,#ee2a7b,#f9ce34); */
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
