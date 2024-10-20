@@ -8,6 +8,7 @@
 @import '_banner-section-1.css';
 @import '_offer-section.css';
 @import '_footer.css';
+@import '_login-form.css';
 @font-face {
     font-family: Vazir;
     src: url('../font/Vazir.eot');

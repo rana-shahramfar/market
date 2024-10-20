@@ -1,0 +1,15 @@
+.modal-body .login-form input{
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #efefef;
+}
+.modal-body .login-form label{
+    font-size: 12px;
+}
+.modal .modal-header h5{
+    font-size: 12px;
+}
+#login-form .modal-footer a{
+    font-size: 12px;
+    color: #2282ff;
+}
