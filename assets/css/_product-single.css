@@ -44,6 +44,50 @@
 .p-benefit-details a{
     font-size: 12px;
 }
+.p-benefit-details .fa-bullseye{
+    font-size: 11px;
+    color: #0080d5;
+}
 .brand-cat{
     font-size: 14px;
 }
+.custom-nav-tabs-product .nav-link.active, .custom-nav-tabs-product .nav-item.show .nav-link {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+    border-top: 3px solid #e92f2f;
+    font-size: 12px;
+}
+.custom-nav-tabs-product .nav-link{
+    font-size: 12px;
+    color: #495057;
+}
+.custom-tab-pane-product h5{
+    font-size: 14px;
+    color: #9a9a9a;
+}
+.custom-tab-pane-product p{
+    font-size: 12px;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+    padding: 10px;
+}
+.tab-content .product-rate p{
+    font-size: 12px;
+}
+.custom-product-rate{
+    background-color: #fbfbfb;
+    
+}
+.custom-product-reviw p{
+    font-size: 12px;
+}
+.custom-product-reviw img{
+    align-items: center;
+}
+.custom-product-reviw li p{
+    margin-right: 2px;
+    padding-right: 10px;
+    border-right: 2px solid #edecec;
+}
+
