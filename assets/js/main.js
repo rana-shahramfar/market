@@ -1,3 +1,7 @@
+$(".tt").tooltip("show");
+$(".popovers").popover("show");
+$(".tot").toast("show");
+
 // Set the date we're counting down to
 var countDownDate = new Date("Oct 24, 2024 15:37:25").getTime();
 // Update the count down every 1 second
@@ -82,6 +86,3 @@ $(document).ready(function(){
 
 });
 
-$(".tt").tooltip("show");
-$(".popovers").popover("show");
-$(".tot").toast("show");
